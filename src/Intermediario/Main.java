@@ -20,7 +20,7 @@ public class Main {
         Sakura.aldeia = "Aldeia da Folha";
         Sakura.idade = 18;
 
-        
+
     }
 
 }
