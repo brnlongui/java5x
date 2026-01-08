@@ -13,6 +13,12 @@ public class Main {
         Sassuke.nome = "Sassuke Uchiha";
         Sassuke.aldeia = "Aldeia da Folha";
         Sassuke.idade = 18;
+        Sassuke.SharinganAtivado();
+        String chamandoMetodo = Sassuke.EuSouUmNinja();
+        System.out.println(chamandoMetodo);
+
+        int qtTempoFalta = Sassuke.anosParaSeTornarHokage(50);
+        System.out.println("Faltam "+qtTempoFalta+" para ser hokage");
 
         //Criar Sakura
         Ninja Sakura = new Ninja();
